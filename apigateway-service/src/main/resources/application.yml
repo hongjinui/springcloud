@@ -24,6 +24,17 @@ spring:
                 baseMessage: user-service Logger Filter
                 preLogger: true
                 postLogger: true
+        - id: catalog-service
+          uri: lb://CATALOG-SERVICE
+          predicates:
+            - Path=/catalog-service/**
+          filters:
+            - name: CustomFilter
+            - name: LoggerFilter
+              args:
+                baseMessage: catalog-service Logger Filter
+                preLogger: true
+                postLogger: true
 eureka:
   client:
     register-with-eureka: true

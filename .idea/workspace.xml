@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="004a9e62-986e-4cf3-be75-69a0a2f140e3" name="Changes" comment="user-service" />
+    <list default="true" id="004a9e62-986e-4cf3-be75-69a0a2f140e3" name="Changes" comment="user-service">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +38,8 @@
       <option name="presentableId" value="Default" />
       <updated>1651069337035</updated>
       <workItem from="1651069339062" duration="1183000" />
+      <workItem from="1651156776503" duration="19000" />
+      <workItem from="1651156826975" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="user-service">
       <created>1651069481615</created>
