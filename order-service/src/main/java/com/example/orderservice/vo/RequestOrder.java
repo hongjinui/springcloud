@@ -1,4 +1,4 @@
-package com.example.catalogservice.vo;
+package com.example.orderservice.vo;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
@@ -7,11 +7,12 @@ import java.time.LocalDateTime;
 
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class RequestCatalog {
+public class RequestOrder {
 
     private String productId;
-    private String productName;
+    private Integer qty;
     private Integer unitPrice;
-    private Integer stock;
+
+    // 사용자에게 상품ID, 수량, 가격을 전달 받는다고 가정함
 
 }

@@ -1,3 +1,4 @@
+
 server:
   port: 0
 
@@ -15,7 +16,7 @@ greeting:
 
 spring:
   application:
-    name: catalog-service
+    name: order-service
   profiles:
     active: local
   datasource:
@@ -46,7 +47,7 @@ spring:
     url: jdbc:mysql://localhost:3306/springcloud?characterEncoding=UTF-8&serverTimezone=UTC
     username: root
     password: as!234
-
 logging:
   level:
-    com.example.catalogservice: debug
+    com.example.orderservice: debug
+

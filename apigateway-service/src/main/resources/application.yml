@@ -35,6 +35,17 @@ spring:
                 baseMessage: catalog-service Logger Filter
                 preLogger: true
                 postLogger: true
+        - id: order-service
+          uri: lb://ORDER-SERVICE
+          predicates:
+            - Path=/order-service/**
+          filters:
+            - name: CustomFilter
+            - name: LoggerFilter
+              args:
+                baseMessage: order-service Logger Filter
+                preLogger: true
+                postLogger: true
 eureka:
   client:
     register-with-eureka: true
